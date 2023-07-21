@@ -1,0 +1,20 @@
+{
+  "name": "graphql-tools-factory",
+  "version": "1.0.0",
+  "author": "Lukas <lukas@klusis.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@graphql-tools/mock": "^9.0.0",
+    "@graphql-tools/schema": "^10.0.0",
+    "@graphql-tools/utils": "^10.0.3",
+    "graphql": "^16.7.1",
+    "typescript": "^5.1.6",
+    "vitest": "^0.33.0"
+  },
+  "resolutions": {
+    "graphql": "^16.7.1"
+  }
+}
