@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "author": "Lukas <lukas@klusis.com>",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "test": "vitest"
   },

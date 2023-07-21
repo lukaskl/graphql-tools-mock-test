@@ -1,6 +1,7 @@
-import { graphqlSync, buildSchema, graphql } from "graphql";
 import { makeExecutableSchema } from "@graphql-tools/schema";
 import { addMocksToSchema, mockServer } from "@graphql-tools/mock";
+const { graphqlSync, buildSchema, graphql } = require("graphql");
+// import { graphqlSync, buildSchema, graphql } from 'graphql'
 
 const schemaString = `type User {
   id: String!
